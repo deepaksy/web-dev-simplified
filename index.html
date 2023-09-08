@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            Deepak
+        </title>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="index.css"/>
+        <style>
+            html,body{
+                margin:0;
+                padding: 0;
+            }
+            body{
+                background-color: var(--background-color);
+                color: var(--text-color);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="header">
+                <h1 aria-label="Hyper-text markup language" title="Hyper Text markup language">HTML</h1>
+                <button id="theme" class="theme-switch" onclick="toggleTheme()"></button>
+            </nav>
+        </header>
+        <main>
+            <section title="headings" id="headings" class="section">
+                <strong>
+                    <h2>Headings in HTML:</h2>
+                </strong>
+                <p>
+                    There are total of 6 categories of heading in a html. Ranging from h1 --> h6.
+                    Below are the examples:
+                </p>
+                <div style="display: flex;flex-direction: column;border: 1px solid var(--text-color);margin:1rem 2rem 5rem 2rem;padding:5rem;width:fit-content">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </section>
+            <section title="paragraphs" id="paragraphs" class="section">
+                <strong>
+                    <h2>Paragraph:</h2>
+                </strong>
+                <p>
+                    A paragraph always starts with a new line, and usually a block of text.<br/><br/>
+                    <code class="code">&lt;p&gt;</code>
+                </p>
+            </section>
+            <section title="miscellaneous" id="misc" class="section">
+                <h2>Horizontal Rule</h2>
+                <p>
+                    Below is the example of a Horizontal ruler in html.
+                </p>
+                <hr/>
+            </section>
+            <section title="text-formatting" id="formatting" class="section">
+                <h2>Text formatting in html:</h2>
+                <p>
+                    Text formatting is the crucial part of a html website.
+                </p>
+                <div id="bold">
+                    <h3>Bold</h3>
+                    <p>
+                        <strong>&lt;b&gt;</strong> is used to make any sentence or word appear bold in a webpage.<br/>
+                        It does not change the meaning of the sentence or don't add any weightage of the word.
+                    </p>
+                    <p>
+                        <i>Below is the example:</i>
+                    </p>
+                    <div title="An example of bold text." class="example">
+                        <b>This is a bold text.</b>
+                    </div>
+                </div>
+                <div title="HTML formatting elements" id="formatting-elements">
+                    <h3>Formatting Elements in HTML:</h3>
+                    <table>
+                        <thead>
+                            <th>s.no</th>
+                            <th>Tag</th>
+                            <th>Description</th>
+                        </thead>
+                        <tbody>
+                            <td>1</td>
+                            <td>&lt;b&gt;</td>
+                            <td>Bold text</td>
+                        </tbody>
+                        <tbody>
+                            <td>2</td>
+                            <td>&lt;strong&gt;</td>
+                            <td>Important text</td>
+                        </tbody>
+                        <tbody>
+                            <td>3</td>
+                            <td>&lt;i&gt;</td>
+                            <td>Italic text</td>
+                        </tbody>
+                        <tbody>
+                            <td>4</td>
+                            <td>&lt;em&gt;</td>
+                            <td>Emphasized text</td>
+                        </tbody>
+                        <tbody>
+                            <td>5</td>
+                            <td>&lt;mark&gt;</td>
+                            <td>Marked text</td>
+                        </tbody>
+                        <tbody>
+                            <td>6</td>
+                            <td>&lt;small&gt;</td>
+                            <td>Smaller text</td>
+                        </tbody>
+                        <tbody>
+                            <td>7</td>
+                            <td>&lt;del&gt;</td>
+                            <td>Deleted text</td>
+                        </tbody>
+                        <tbody>
+                            <td>8</td>
+                            <td>&lt;ins&gt;</td>
+                            <td>Inserted text</td>
+                        </tbody>
+                        <tbody>
+                            <td>9</td>
+                            <td>&lt;sub&gt;</td>
+                            <td>Subscript text</td>
+                        </tbody>
+                        <tbody>
+                            <td>10</td>
+                            <td>&lt;sup&gt;</td>
+                            <td>Superscript text</td>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section title="quotation" id="quotation" class="section">
+                <h2>Quotation in HTML:</h2>
+            </section>
+        </main>
+        <footer class="footer">
+            <em>This is footer content.</em>
+        </footer>
+    </body>
+</html>
